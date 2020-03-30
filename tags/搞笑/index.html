@@ -36,7 +36,8 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false
+    isPost : false,
+    lang   : 'zh-CN'
   };
 </script>
 
@@ -89,13 +90,11 @@
 
   <div class="site-meta">
 
-    <div>
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Air</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Air</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
   </div>
 
   <div class="site-nav-right">
@@ -105,8 +104,9 @@
 </div>
 
 
+
+
 <nav class="site-nav">
-  
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
@@ -119,8 +119,11 @@
 
   </li>
   </ul>
-
 </nav>
+
+
+
+
 </div>
     </header>
 
@@ -136,7 +139,7 @@
         <div class="content-wrap">
           
 
-          <div class="content">
+          <div class="content tag">
             
 
   
@@ -145,14 +148,14 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <h1 class="collection-header">搞笑
+        <h2 class="collection-header">搞笑
           <small>标签</small>
-        </h1>
+        </h2>
       </div>
 
       
     <div class="collection-year">
-      <h1 class="collection-header">2020</h1>
+      <span class="collection-header">2020</span>
     </div>
 
   <article itemscope itemtype="http://schema.org/Article">
@@ -166,11 +169,11 @@
         </time>
       </div>
 
-      <h2 class="post-title">
+      <div class="post-title">
           <a class="post-title-link" href="/2020/02/21/%E4%BC%91%E9%97%B2%E6%90%9E%E7%AC%91-2020-02-21-%E6%90%9E%E7%AC%91-%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%94%B6%E5%88%B0%E8%BF%99%E4%BA%9B%E7%9F%AD%E4%BF%A1-%E5%87%86%E7%AC%91%E8%B6%B4%E5%9C%B0/" itemprop="url">
             <span itemprop="name">搞笑-如果你收到这些短信,准笑趴地</span>
           </a>
-      </h2>
+      </div>
 
     </header>
   </article>
@@ -186,11 +189,11 @@
         </time>
       </div>
 
-      <h2 class="post-title">
+      <div class="post-title">
           <a class="post-title-link" href="/2020/02/21/%E4%BC%91%E9%97%B2%E6%90%9E%E7%AC%91-2020-02-21-%E6%90%9E%E7%AC%91-%E5%BE%88%E4%B9%85%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%EF%BC%8C%E6%9C%89%E6%AC%A1%E6%88%91%E7%9A%84%E7%94%B5%E8%84%91%E5%9D%8F%E4%BA%86/" itemprop="url">
             <span itemprop="name">搞笑-很久很久以前，有次我的电脑坏了</span>
           </a>
-      </h2>
+      </div>
 
     </header>
   </article>
@@ -293,6 +296,8 @@
       <div class="footer-inner">
         
 
+        
+
 <div class="copyright">
   
   &copy; 
@@ -302,10 +307,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Air</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
-  </div>
-  <span class="post-meta-divider">|</span>
-  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.2
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         
